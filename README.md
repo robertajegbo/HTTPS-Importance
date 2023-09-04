@@ -1,2 +1,2 @@
 # HTTPS-Importance
-Exercise demonstrating the importance of using HTTPS over HTTP when browsing the web
+The goal of this exercise was to assume the role of an IT analyst and verify whether information is passing through with the HTTP traffic. I used Wireshark to capture the traffic for my activity on an experimental HTTP webpage. The screen capture clearly shows the test credentials that I used to log in to the webpage; in plain text. This demonstrates the importance of configuring your web pages on Port 443 (HTTPS) rather than port 80 (HTTP). It is especially important to do so when accessing the internet from an unknown or insecure network such as the public wifi at an airport.
